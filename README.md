@@ -110,7 +110,7 @@ Cette page affiche les détails d'une recette spécifique :
 **Fonctionnalités JavaScript :**
 - Gestion des favoris
 
-### 4. Page des favoris (favoris.html)
+### 3. Page des favoris (favoris.html)
 
 Cette page affiche les recettes sauvegardées par l'utilisateur :
 
