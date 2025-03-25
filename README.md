@@ -123,7 +123,7 @@ Cette page affiche les recettes sauvegardées par l'utilisateur :
 - Suppression de favoris avec mise à jour immédiate
 - Persistance des données entre les sessions
 
-### 5. Page à propos (a-propos.html)
+### 4. Page à propos (a-propos.html)
 
 Une page simple présentant :
 
