@@ -43,7 +43,6 @@ gourmeTech/
 │
 ├── index.html              # Page d'accueil avec liste des recettes
 ├── recette.html            # Template pour l'affichage d'une recette
-├── ajouter-recette.html    # Formulaire d'ajout de recette
 ├── favoris.html            # Page des recettes favorites
 ├── a-propos.html           # Page à propos du site
 │
