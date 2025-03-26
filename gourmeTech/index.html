@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GourmeTech</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <a href="#">GourmeTech</a>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Ajouter une recette</a></li>
+            <li><a href="#">Mes favoris</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">thème clair</a></li>
+        </ul>
+    </nav>
+</header> 
+<main>
+    <section>
+        <form action="">
+            <fieldset>
+                <input type="text" placeholder="Rechercher une recette">
+                <button type="submit">Rechercher</button>
+            </fieldset>
+            <fieldset>
+                <legend>Catégorie</legend>
+                <ul>
+                    <li><input type="checkbox"><label>Entrée</label></li>
+                    <li><input type="checkbox"><label>Plat</label></li>
+                    <li><input type="checkbox"><label>Dessert</label></li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Temps de préparation</legend>
+                <ul>
+                    <li><input type="checkbox"><label>Rapide (< 30 min)</label></li>
+                    <li><input type="checkbox"><label>Moyen (30-60 min)</label></li>
+                    <li><input type="checkbox"><label>Long (> 60 min)</label></li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Difficulté</legend>
+                <ul>
+                    <li><input type="checkbox"><label>Facile</label></li>
+                    <li><input type="checkbox"><label>Moyenne</label></li>
+                    <li><input type="checkbox"><label>Difficile</label></li>
+                </ul>
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <article>
+                <img src="assets/images/pastis.jpg" alt="Pastis gascon">
+                <h2>Pastis gascon</h2>
+                <ul>
+                    <li><a href="#" class="tag tag-orange">Dessert</a></li>
+                    <li><a href="#" class="tag tag-green">60 min</a></li>
+                    <li><a href="#" class="tag tag-blue">Facile</a></li>
+                </ul>
+                <a href="#" class="btn">Voir la recette</a>
+        </article>
+        <article>
+            <img src="assets/images/cassoulet.jpg" alt="Cassoulet de Castelnaudary">
+            <h2>Cassoulet de Castelnaudary</h2>
+            <ul>
+                <li><a href="#" class="tag tag-orange">Plat</a></li>
+                <li><a href="#" class="tag tag-green">45 min</a></li>
+                <li><a href="#" class="tag tag-blue">Moyen</a></li>
+            </ul>
+            <a href="#" class="btn">Voir la recette</a>
+        </article>
+        <article>
+            <img src="assets/images/salade.jpg" alt="Salade gerçoise">
+            <h2>Salade gerçoise</h2>
+            <ul>
+                <li><a href="#" class="tag tag-orange">Entrée</a></li>
+                <li><a href="#" class="tag tag-green">30 min</a></li>
+                <li><a href="#" class="tag tag-blue">facile</a></li>
+            </ul>
+            <a href="#" class="btn">Voir la recette</a>
+        </article>
+    </section>
+    <footer>
+        <nav>
+            <p>Navigation</p>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Ajouter une recette</a></li>
+                <li><a href="#">Mes favoris</a></li>
+                <li><a href="#">À propos</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h2>À propos de GourmeTech</h2>
+            <p>
+                GourmeTech est une plateforme de recettes culinaires interactive développée dans le cadre d'un projet pédagogique.
+            </p>
+        </div>
+        <span>
+            &copy; 2025 GourmeTech - Tous droits réservés 
+        </span>
+    </footer>
+</main>   
+</body>
+</html>
