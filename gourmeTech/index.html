@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GourmeTech</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header>
     <a href="#">GourmeTech</a>
+    <button>
+        <svg viewBox="0 0 100 100" width="20" height="20" fill="#000">
+            <rect y="7" width="100" height="15"></rect>
+            <rect y="42" width="100" height="15"></rect>
+            <rect y="78" width="100" height="15"></rect>
+        </svg>
+    </button>
     <nav>
         <ul>
             <li><a href="#">Accueil</a></li>
             <li><a href="#">Ajouter une recette</a></li>
             <li><a href="#">Mes favoris</a></li>
             <li><a href="#">À propos</a></li>
-            <li><a href="#">thème clair</a></li>
         </ul>
     </nav>
 </header> 
@@ -30,25 +39,25 @@
             <fieldset>
                 <legend>Catégorie</legend>
                 <ul>
-                    <li><input type="checkbox"><label>Entrée</label></li>
-                    <li><input type="checkbox"><label>Plat</label></li>
-                    <li><input type="checkbox"><label>Dessert</label></li>
+                    <li><label><input type="checkbox">Entrée</label></li>
+                    <li><label><input type="checkbox">Plat</label></li>
+                    <li><label><input type="checkbox">Dessert</label></li>
                 </ul>
             </fieldset>
             <fieldset>
                 <legend>Temps de préparation</legend>
                 <ul>
-                    <li><input type="checkbox"><label>Rapide (< 30 min)</label></li>
-                    <li><input type="checkbox"><label>Moyen (30-60 min)</label></li>
-                    <li><input type="checkbox"><label>Long (> 60 min)</label></li>
+                    <li><label><input type="checkbox">Rapide (< 30 min)</label></li>
+                    <li><label><input type="checkbox">Moyen (30-60 min)</label></li>
+                    <li><label><input type="checkbox">Long (> 60 min)</label></li>
                 </ul>
             </fieldset>
             <fieldset>
                 <legend>Difficulté</legend>
                 <ul>
-                    <li><input type="checkbox"><label>Facile</label></li>
-                    <li><input type="checkbox"><label>Moyenne</label></li>
-                    <li><input type="checkbox"><label>Difficile</label></li>
+                    <li><label><input type="checkbox">Facile</label></li>
+                    <li><label><input type="checkbox">Moyenne</label></li>
+                    <li><label><input type="checkbox">Difficile</label></li>
                 </ul>
             </fieldset>
         </form>
