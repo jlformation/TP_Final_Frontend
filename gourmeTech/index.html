@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
 </head>
 <body>
 <header>
@@ -31,7 +32,7 @@
 </header> 
 <main>
     <section>
-        <form action="">
+        <form action="#" id="filterForm">
             <fieldset>
                 <input type="text" placeholder="Rechercher une recette">
                 <button type="submit">Rechercher</button>
@@ -39,51 +40,51 @@
             <fieldset>
                 <legend>Catégorie</legend>
                 <ul>
-                    <li><label><input type="checkbox">Entrée</label></li>
-                    <li><label><input type="checkbox">Plat</label></li>
-                    <li><label><input type="checkbox">Dessert</label></li>
+                    <li><label><input name="cat" type="checkbox" value="1">Entrée</label></li>
+                    <li><label><input name="cat" type="checkbox" value="2">Plat</label></li>
+                    <li><label><input name="cat" type="checkbox" value="3">Dessert</label></li>
                 </ul>
             </fieldset>
             <fieldset>
                 <legend>Temps de préparation</legend>
                 <ul>
-                    <li><label><input type="checkbox">Rapide (< 30 min)</label></li>
-                    <li><label><input type="checkbox">Moyen (30-60 min)</label></li>
-                    <li><label><input type="checkbox">Long (> 60 min)</label></li>
+                    <li><label><input name="tps" type="checkbox" value="1">Rapide (< 30 min)</label></li>
+                    <li><label><input name="tps" type="checkbox" value="2">Moyen (30-60 min)</label></li>
+                    <li><label><input name="tps" type="checkbox" value="3">Long (> 60 min)</label></li>
                 </ul>
             </fieldset>
             <fieldset>
                 <legend>Difficulté</legend>
                 <ul>
-                    <li><label><input type="checkbox">Facile</label></li>
-                    <li><label><input type="checkbox">Moyenne</label></li>
-                    <li><label><input type="checkbox">Difficile</label></li>
+                    <li><label><input name="level" type="checkbox" value="1">Facile</label></li>
+                    <li><label><input name="level" type="checkbox"value="2">Moyenne</label></li>
+                    <li><label><input name="level" type="checkbox" value="3">Difficile</label></li>
                 </ul>
             </fieldset>
         </form>
     </section>
     <section>
-        <article>
+        <article data-cat="3" data-tps="2" data-level="1">
                 <img src="assets/images/pastis.jpg" alt="Pastis gascon">
                 <h2>Pastis gascon</h2>
                 <ul>
                     <li><a href="#" class="tag tag-orange">Dessert</a></li>
                     <li><a href="#" class="tag tag-green">60 min</a></li>
-                    <li><a href="#" class="tag tag-blue">Facile</a></li>
+                    <li><a href="#" class="tag tag-blue">Moyen</a></li>
                 </ul>
                 <a href="#" class="btn">Voir la recette</a>
         </article>
-        <article>
+        <article data-cat="2" data-tps="3" data-level="3">
             <img src="assets/images/cassoulet.jpg" alt="Cassoulet de Castelnaudary">
             <h2>Cassoulet de Castelnaudary</h2>
             <ul>
                 <li><a href="#" class="tag tag-orange">Plat</a></li>
-                <li><a href="#" class="tag tag-green">45 min</a></li>
-                <li><a href="#" class="tag tag-blue">Moyen</a></li>
+                <li><a href="#" class="tag tag-green">120 min</a></li>
+                <li><a href="#" class="tag tag-blue">Difficile</a></li>
             </ul>
             <a href="#" class="btn">Voir la recette</a>
         </article>
-        <article>
+        <article data-cat="1" data-tps="1" data-level="1">
             <img src="assets/images/salade.jpg" alt="Salade gerçoise">
             <h2>Salade gerçoise</h2>
             <ul>

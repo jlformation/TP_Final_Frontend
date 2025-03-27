@@ -157,6 +157,10 @@ section article {
   overflow: hidden;
   padding-bottom: 20px;
 
+  &.hidden {
+    display: none;
+  }
+
   h2 {
     font-size: 1.4rem;
     padding-block: 14px;
